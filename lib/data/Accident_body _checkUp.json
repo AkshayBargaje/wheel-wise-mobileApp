@@ -1,0 +1,758 @@
+{
+    "sections": [
+        "Body",
+        "Documents"
+    ],
+    "Body": [
+        {
+            "Sr.no": 1,
+            "Description": "Frame or underbody damage",
+            "What to Check": "Damage / Impact/ Rusting",
+            "parameters": [
+                {
+                    "condition": "> 4 panels changed",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "2-3 Panels Changed",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "1-2 Panel changed",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No Panel Changed",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 2,
+            "Description": "Paint Condition",
+            "What to Check": "Polishing & Gloss",
+            "parameters": [
+                {
+                    "condition": "> 3 Panels Color difference",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "2 Panels Color difference",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "1 Panel Color difference",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No difference or negligible difference in color of panels",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 3,
+            "Description": "Dent & Scratches",
+            "What to Check": "Repair and paint visible dent & deep scratches if any",
+            "parameters": [
+                {
+                    "condition": "> 4 dents & deep scratches",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "2-3 dents & scratches",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "1-2 dents & scratches",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Almost negligible dents & scratches",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 4,
+            "Description": "Carpet condition",
+            "What to Check": "Cleanliness, torn off, proper size",
+            "parameters": [
+                {
+                    "condition": "Torn & worn out",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Ok but little dirty",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Ok but only 2-3 stains",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "OK & almost negligible stains",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 5,
+            "Description": "Trim condition",
+            "What to Check": "Cleanliness and rattling noise",
+            "parameters": [
+                {
+                    "condition": "Worn/ Torn Door Trims / Rattling noise",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Wear & Tear marks on Door Trims (< 2 trim) & minimal rattling noise",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "No wear & Tear marks/ only dirty & negligible rattling noise",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Clean & no rattling noise",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 6,
+            "Description": "Front Bumper",
+            "What to Check": "Alignment, crack/broken, Require painting",
+            "parameters": [
+                {
+                    "condition": "Broken & Deep scratch marks",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Color difference/ Screwed",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Clean & slight color difference",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Clean bumper",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 7,
+            "Description": "Grill / Logo",
+            "What to Check": "Alignment, paint, and crack",
+            "parameters": [
+                {
+                    "condition": "Broken & Scratches",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Logo missing/broken & minimal scratches",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Minimal scratches",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No scratch & logo in good condition",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 8,
+            "Description": "Rear Bumper",
+            "What to Check": "Alignment, crack/broken, Require painting",
+            "parameters": [
+                {
+                    "condition": "Broken & Deep scratch marks",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Color difference/ Screwed",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Clean but slight color difference",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Clean bumper",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 9,
+            "Description": "Number Plate (Front & Rear)",
+            "What to Check": "Check for broken/painting",
+            "parameters": [
+                {
+                    "condition": "Broken/in local language",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Nos faded",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Fonts not proper",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "HSRP or in proper condition",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 10,
+            "Description": "Wheel Cap",
+            "What to Check": "Missing/ Broken",
+            "parameters": [
+                {
+                    "condition": "Missing (Any one or two)",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Cracked but in place",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Faded but in proper condition",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "All 4 available & in good condition",
+                    "rating": "Excellent"
+                },
+                {
+                    "condition": null,
+                    "rating": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "Sr.no": 11,
+            "Description": "Jack And Tommy (Tool Kit)",
+            "What to Check": "Working, damage",
+            "parameters": [
+                {
+                    "condition": "Missing",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Not working properly/Jam",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Available & in working condition",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Available & in perfect condition",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 12,
+            "Description": "Dickey Shock Absorber",
+            "What to Check": "Working",
+            "parameters": [
+                {
+                    "condition": "Leakage & not working",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Ok & some leakage marks/ Operations some hard",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Ok & No seepage marks / Operation slight hard",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Ok & in good working condition",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 13,
+            "Description": "Seat Adjustment - All Functions",
+            "What to Check": "Operating properly",
+            "parameters": [
+                {
+                    "condition": "Not operating / welded",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Operating some hard but sliding/inclination operation ok",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Operating smooth but sliding or inclination any one operation not very smooth",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Working smoothly",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 14,
+            "Description": "Safety Belts Inertia Locking System",
+            "What to Check": "Operating properly, crack, broken",
+            "parameters": [
+                {
+                    "condition": "Inertia locking not working properly",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Operating but more efforts",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Operating but sticky operations sometimes",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Smooth operations & locking at jerks",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 15,
+            "Description": "Windscreen Condition",
+            "What to Check": "Deep wiper scratch marks, rubber hard/broken",
+            "parameters": [
+                {
+                    "condition": "Deep scratches mark",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "No scratch & one very small point crack",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "No crack & only minimal scratches due to wiper blade",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No marks & clean",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 16,
+            "Description": "Windscreen Washer Condition and Jets",
+            "What to Check": "Operating properly",
+            "parameters": [
+                {
+                    "condition": "Not operating / Fluid tank/cap broken",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Operating but jet connector missing",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Operating Ok, but washer motor little noisy",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Smooth operations",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 17,
+            "Description": "Dashboard",
+            "What to Check": "Cleanliness, rattling noise",
+            "parameters": [
+                {
+                    "condition": "Scratches / damage mark",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Some scratches & some rattling noise",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Some scratches but no rattling noise",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Clean & no rattling / abnormal noise",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 18,
+            "Description": "Rubber Beading",
+            "What to Check": "Crack, given away",
+            "parameters": [
+                {
+                    "condition": "Torn & Broken",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Cracks",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Minor cracks",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No cracks",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 19,
+            "Description": "Headlight Condensation",
+            "What to Check": "Water in headlight",
+            "parameters": [
+                {
+                    "condition": "Severe condensation, unable to clean",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Little condensation visible in foggy condition",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "No condensation visible in foggy condition",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No condensation at all",
+                    "rating": "Excellent"
+                },
+                {
+                    "condition": "Not Applicable",
+                    "rating": "N/A"
+                }
+            ]
+        },
+        {
+            "Sr.no": 20,
+            "Description": "Window Mechanisms (Electronic - Power Window Mechanism)",
+            "What to Check": "Opening/alignment/noise",
+            "parameters": [
+                {
+                    "condition": "Not operating",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Noisy & sticky operations",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Working with little sticky operations",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Smooth operations",
+                    "rating": "Excellent"
+                },
+                {
+                    "condition": "Not Applicable",
+                    "rating": "N/A"
+                }
+            ]
+        },
+        {
+            "Sr.no": 21,
+            "Description": "Check Front Doors",
+            "What to Check": "Opening/alignment/noise",
+            "parameters": [
+                {
+                    "condition": "Very Hard operations",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Little hard operations with hinge play & noise",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Smooth operations but little hinge play & no noise",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Smooth operations",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 22,
+            "Description": "Check Rear Doors",
+            "What to Check": "Check operation",
+            "parameters": [
+                {
+                    "condition": "Very Hard operations",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Little hard operations with hinge play & noise",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Smooth operations but little hinge play & no noise",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Smooth operations",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 23,
+            "Description": "Dickey Door Status",
+            "What to Check": "Check operation",
+            "parameters": [
+                {
+                    "condition": "Hinge broken/cracked",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Door latch noisy & little play",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "No noise but shock absorbers weak",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Operating smoothly",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 24,
+            "Description": "Bonnet and Hood Status",
+            "What to Check": "Check operation",
+            "parameters": [
+                {
+                    "condition": "Hinge broken/cracked",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Hinge noisy & little play",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Bonnet hook/lock loose",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Operating smoothly",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 26,
+            "Description": "Inside Rear View Mirror",
+            "What to Check": "Damage/Operations (Manual & Electrical)",
+            "parameters": [
+                {
+                    "condition": "Broken/Missing",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Available but loose fitment",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Available with some black spots on mirror",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Good condition with proper fitment",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 27,
+            "Description": "Side View Mirror RH",
+            "What to Check": "Damage/Operations (Manual & Electrical)",
+            "parameters": [
+                {
+                    "condition": "Not Operating",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Operating smoothly but with 1-2 scratches",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Operating smoothly but with little scratches",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Operating smoothly & no outside scratches",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 28,
+            "Description": "Side View Mirror LH",
+            "What to Check": "Working properly",
+            "parameters": [
+                {
+                    "condition": "Not Operating",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Operating smoothly but with 1-2 scratches",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Operating smoothly but with little scratches",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Operating smoothly & no outside scratches",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 29,
+            "Description": "Fuel Cap Lid",
+            "What to Check": "Check for missing/broken",
+            "parameters": [
+                {
+                    "condition": "Missing/Broken/breather clogged",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Good condition but threads little damage",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Little jam to open/close",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Operating Smoothly",
+                    "rating": "Excellent"
+                }
+            ]
+        }
+    ],
+    "Documents": [
+        {
+            "Sr.no": 30,
+            "Description": "Is RC available",
+            "What to Check": "Original / Duplicate / Xerox",
+            "parameters": [
+                {
+                    "condition": "Duplicate & in bad condition",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Duplicate & in not very good condition",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Original but in not very good condition",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Original & in good condition",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 31,
+            "Description": "Is Insurance available",
+            "What to Check": "Original (Policy not only cover note)",
+            "parameters": [
+                {
+                    "condition": "Only Cover Note",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Original policy but xerox",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Original policy but 03 months validity remained",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Policy & in good condition",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 32,
+            "Description": "Is spare key/duplicate key available",
+            "What to Check": "Condition",
+            "parameters": [
+                {
+                    "condition": "Both duplicate keys",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "One Original & one OEM duplicate Key",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "One Original & one OEM duplicate Key",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Both Original Keys available",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 33,
+            "Description": "All Transfer papers available",
+            "What to Check": "As per RTO requirement",
+            "parameters": [
+                {
+                    "condition": "Incomplete Papers (F-28/29/30 & HPA)",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Only Xerox copies of documents",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "All RTO papers available but NOC from Bank pending",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "All Papers available",
+                    "rating": "Excellent"
+                }
+            ]
+        }
+    ]
+}

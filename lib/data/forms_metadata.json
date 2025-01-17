@@ -1,0 +1,22 @@
+{
+    "forms": [
+        {
+            "B2C": [
+                "Accident & Body check",
+                "Engine & Transmission+Scanning",
+                "Interior & Electrical",
+                "Steering suspension&Tyres brake",
+                "85 points EV",
+                "128 points"
+            ]
+        },
+        {
+            "B2B": [
+                "85 points EV",
+                "15 points",
+                "54 points",
+                "128 points"
+            ]
+        }
+    ]
+}

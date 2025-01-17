@@ -1,0 +1,413 @@
+{
+    "sections": [
+        "Body",
+        "ElectricalSystem",
+        "AC/Heater",
+        "Steering & Suspention System",
+        "Brake System",
+        "EngineFuel System, Ignition System",
+        "Accessories"
+    ],
+    "Body": [
+        {
+            "Sr.no": 1,
+            "Description": "Frame or underbody damage",
+            "What to Check": "Damage / Impact/ Rusting",
+            "parameters": [
+                {
+                    "condition": "> 4 panels changed",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "2-3 Panels Changed",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "1-2 Panel changed",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No Panel Changed",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 2,
+            "Description": "Paint Condition",
+            "What to Check": "Polishing & Gloss",
+            "parameters": [
+                {
+                    "condition": "> 3 Panels Color difference",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "2 Panels Color difference",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "1 Panel Color difference",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No difference or negligible difference in color of panels",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 3,
+            "Description": "Dent & Scratches",
+            "What to Check": "Repair and paint visible dent & deep scratches if any",
+            "parameters": [
+                {
+                    "condition": "> 4 dents & deep scratches",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "2-3 dents & scratches",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "1-2 dents & scratches",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Almost negligible dents & scratches",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 4,
+            "Description": "Front & Rear Bumper",
+            "What to Check": "Alignment, crack/broken, Require painting",
+            "parameters": [
+                {
+                    "condition": "Broken & Deep scratch marks",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Color difference / Some alignment gap",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Clean but slight color difference",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Clean bumper",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 5,
+            "Description": "Front & Rear Doors",
+            "What to Check": "",
+            "parameters": [
+                {
+                    "condition": "Scratch / Dent",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Repaired / Repainted / Rusted",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Smooth operations but replaced",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Original door panel",
+                    "rating": "Excellent"
+                }
+            ]
+        }
+    ],
+    "ElectricalSystem": [
+        {
+            "What to Check": "Battery",
+            "Description": "Check the age and operational status of the battery.",
+            "parameters": [
+                {
+                    "condition": "Not Operating or > 5 years old-",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Operating & < 4 years old-",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Operating & < 3 years old-",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Operations smooth & < 2 years old-",
+                    "rating": "Excellent"
+                }
+            ]
+        }
+    ],
+    "AC/Heater": [
+        {
+            "What to Check": "Check AC Cooling",
+            "Description": "Check both cooling and heater for proper operation.",
+            "parameters": [
+                {
+                    "condition": "Air conditioner not working",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Heater not working",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Less cooling effect",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Working properly",
+                    "rating": "Excellent"
+                }
+            ]
+        }
+    ],
+    "Steering & Suspention System": [
+        {
+            "What to Check": "Front Struts & Rear Shocks",
+            "Description": "Check for noise, leakage, and thud noise.",
+            "parameters": [
+                {
+                    "condition": "Oil leakage",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Ok but somewhat hard/ minor leakage sign / Noise",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Ok but somewhat hard with little seepage sign",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No noise & smooth Operation",
+                    "rating": "Excellent"
+                }
+            ]
+        }
+    ],
+    "Brake System": [
+        {
+            "Sr.no": 67,
+            "What to Check": "Brake & Hand Brake - Play/ Pedal/ Noise/ Brake Shoes",
+            "Description": "Operations & Cable Condition / Booster working.",
+            "parameters": [
+                {
+                    "condition": "Not smooth operation / Oil level low",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Pulling to one side during breaking",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Noisy brakes",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Smooth Operation ",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 79,
+            "What to Check": "Front, Rear Tyres & Spare Tyre",
+            "Description": "Grinding noise while running & tyre noises.",
+            "parameters": [
+                {
+                    "condition": "Different Make/ Cut Marks/ Bulge /< 30% life",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Same Make/ Good & > 35% life",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Same Make/ Good & > 40% life",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Same Make/ Good & > 50% life",
+                    "rating": "Excellent"
+                }
+            ]
+        }
+    ],
+    "EngineFuel System, Ignition System": [
+        {
+            "Sr.no": 90,
+            "What to Check": "Abnormal Engine Noise",
+            "Description": "Check for leakage",
+            "parameters": [
+                {
+                    "condition": "Any abnormal noise like knocking/excess tappet noise",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Timing belt tensioner noisy",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Minor seepage but need oil replacement",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No leakage/ good condition",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 91,
+            "What to Check": "Engine oil leaks - cylinder head. Gasket",
+            "Description": "Check for leakage",
+            "parameters": [
+                {
+                    "condition": "Oil & coolant mixed",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Small bubbles coming in reservoir",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Excess knocking / bubble formation",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "No leakage or seepage",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 96,
+            "What to Check": "Exhaust system condition",
+            "Description": "Check for corrosion / Leakage / Catalytic convertor missing",
+            "parameters": [
+                {
+                    "condition": "Muffler damage/ Cracked/ Distorted sound",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Catalytic convertor missing",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Muffler welding found near bottom",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "New condition & working smooth without any noise",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 96,
+            "What to Check": "Turbo Charger",
+            "Description": "Check for corrosion / Leakage / Catalytic convertor missing",
+            "parameters": [
+                {
+                    "condition": "Too much blue smoke",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Little Blue smoke on sudden acceleration",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Oil leakage from turbo / with little whisling noise",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Working smoothly",
+                    "rating": "Excellent"
+                }
+            ]
+        }
+    ],
+    "Accessories": [
+        {
+            "Sr.no": 51,
+            "Description": "Check Fog lamps, Defogger (if applicable)",
+            "What to Check": "",
+            "parameters": [
+                {
+                    "condition": "Not operating",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Operating but cover dull/ Scratch marks",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Operating but cover not dull/ little scratch marks",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Operating & in good condition",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 52,
+            "Description": "Are alloy wheels fitted properly",
+            "What to Check": "",
+            "parameters": [
+                {
+                    "condition": "Too much scratch marks",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Ok but some scratch marks",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "In good condition",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Excellent",
+                    "rating": "Excellent"
+                }
+            ]
+        },
+        {
+            "Sr.no": 53,
+            "Description": "Check CNG/LPG kit if fitted",
+            "What to Check": "",
+            "parameters": [
+                {
+                    "condition": "Not working properly",
+                    "rating": "Bad"
+                },
+                {
+                    "condition": "Outside Kit fitted but plate not available",
+                    "rating": "Satisfactory"
+                },
+                {
+                    "condition": "Ok but CNG Kit Operational",
+                    "rating": "Good"
+                },
+                {
+                    "condition": "Good Condition/ in operation",
+                    "rating": "Excellent"
+                }
+            ]
+        }
+    ]
+}

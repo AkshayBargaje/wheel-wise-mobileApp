@@ -1,0 +1,284 @@
+{
+    "sections": [
+        "Steering system",
+        "Suspention System",
+        "Brake System",
+        "Tyres Condition",
+        "Documents"
+    ],
+    "Steering system": [
+        {
+            "Sr.no": 59,
+            "What to Check": "Rack & Pinion Steering",
+            "Description": "Check for abnormal noise (Gud-Gud noise while driving).",
+            "parameters": [
+                {"condition": "Excessive Play & noisy", "rating": "Bad"},
+                {"condition": "No noise but more play", "rating": "Satisfactory"},
+                {"condition": "Steering column bush play", "rating": "Good"},
+                {"condition": "Smooth & no noise", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 60,
+            "What to Check": "Tie Rod",
+            "Description": "Check for oil leakage, noise, and operation.",
+            "parameters": [
+                {"condition": "Boot damage & Hard working", "rating": "Bad"},
+                {"condition": "Operation Ok but showing Play", "rating": "Satisfactory"},
+                {"condition": "Boot ok but little play", "rating": "Good"},
+                {"condition": "Working smoothly", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 61,
+            "What to Check": "Power Steering",
+            "Description": "Check for any visible damage, including hose pipes.",
+            "parameters": [
+                {"condition": "Play & Noise", "rating": "Bad"},
+                {"condition": "Steering pump overloading", "rating": "Satisfactory"},
+                {"condition": "Steering pump belt slippage/noisy", "rating": "Good"},
+                {"condition": "No noise & smooth operation", "rating": "Excellent"}
+            ]
+        }
+    ],
+    "Suspention System": [
+        {
+        "Sr.no": 62,
+        "What to Check": "Lower Arms",
+        "Description": "Check for leakage, damage, and lean to one side.",
+        "parameters": [
+            {"condition": "Play & Noise", "rating": "Bad"},
+            {"condition": "Ok but somewhat hard/ leakage sign", "rating": "Satisfactory"},
+            {"condition": "Alignment getting wrong sometimes", "rating": "Good"},
+            {"condition": "No noise & smooth operation", "rating": "Excellent"}
+        ]
+    },
+    {
+        "Sr.no": 63,
+        "What to Check": "Front Struts",
+        "Description": "Check for noise, leakage, and thud noise.",
+        "parameters": [
+            {"condition": "Oil leakage", "rating": "Bad"},
+            {"condition": "Ok but somewhat hard/ seepage sign", "rating": "Satisfactory"},
+            {"condition": "Ok but hard & no leakage sign", "rating": "Good"},
+            {"condition": "No noise & smooth operation", "rating": "Excellent"}
+        ]
+    },
+    {
+        "Sr.no": 64,
+        "What to Check": "Rear Shocks",
+        "Description": "Check for any visible damage, bush damage, leakage, or seepage.",
+        "parameters": [
+            {"condition": "Shock absorber leakage", "rating": "Bad"},
+            {"condition": "Ok but bushing cut/damage", "rating": "Satisfactory"},
+            {"condition": "Bushing came out", "rating": "Good"},
+            {"condition": "No noise & smooth operation", "rating": "Excellent"}
+        ]
+    },
+    {
+        "Sr.no": 65,
+        "What to Check": "Stabilizer Bar Bush",
+        "Description": "Check for noise and condition.",
+        "parameters": [
+            {"condition": "Stabilizer bar bush worn out", "rating": "Bad"},
+            {"condition": "Ok but somewhat hard", "rating": "Satisfactory"},
+            {"condition": "Bushing expanded", "rating": "Good"},
+            {"condition": "No noise & smooth operation", "rating": "Excellent"}
+        ]
+    },
+    {
+        "Sr.no": 66,
+        "What to Check": "Front & Rear Suspension",
+        "Description": "Check actual working during driving and on speed breakers.",
+        "parameters": [
+            {"condition": "Too hard or too much play", "rating": "Bad"},
+            {"condition": "Ok but somewhat less efficient operations/ little play", "rating": "Satisfactory"},
+            {"condition": "Ok but somewhat less efficient operations/ No excessive play", "rating": "Good"},
+            {"condition": "Smooth operation & play", "rating": "Excellent"}
+        ]
+    }
+],
+    "Brake System": [
+        {
+            "Sr.no": 67,
+            "What to Check": "Braking Pedal",
+            "Description": "Operations & Cable Condition / Booster working.",
+            "parameters": [
+                {"condition": "Not operating properly", "rating": "Bad"},
+                {"condition": "Operating but pedal going down", "rating": "Satisfactory"},
+                {"condition": "Operating but hard braking", "rating": "Good"},
+                {"condition": "Smooth operations", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 68,
+            "What to Check": "Hand Brake",
+            "Description": "Noise, proper operation.",
+            "parameters": [
+                {"condition": "Not operating properly", "rating": "Bad"},
+                {"condition": "Working but at more notches", "rating": "Satisfactory"},
+                {"condition": "Lock button hard", "rating": "Good"},
+                {"condition": "Smooth operation & proper efficiency", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 69,
+            "What to Check": "Check Front Brake",
+            "Description": "Noise, proper operation.",
+            "parameters": [
+                {"condition": "Not operating properly", "rating": "Bad"},
+                {"condition": "Ok but somewhat less efficient operations (Brake pad worn out)", "rating": "Satisfactory"},
+                {"condition": "Drum/Disc noisy", "rating": "Good"},
+                {"condition": "Smooth operation & proper braking efficiency", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 70,
+            "What to Check": "Check Rear Brake",
+            "Description": "Check leakages/operations.",
+            "parameters": [
+                {"condition": "Brake oil leakage from wheel cylinder/caliper", "rating": "Bad"},
+                {"condition": "Ok but some leakage sign", "rating": "Satisfactory"},
+                {"condition": "Ok but minor seepage sign", "rating": "Good"},
+                {"condition": "Smooth operation with proper efficiency", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 71,
+            "What to Check": "Master Cylinder/Brake Booster working",
+            "Description": "Check brake shoes/pads & proper functioning of booster.",
+            "parameters": [
+                {"condition": "Brake hard/Sticky/not proper efficiency", "rating": "Bad"},
+                {"condition": "Breaking distance more", "rating": "Satisfactory"},
+                {"condition": "Little scratching noise", "rating": "Good"},
+                {"condition": "Working smooth", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 72,
+            "What to Check": "Braking Efficiency",
+            "Description": "Need to cross-check while driving/No pulling.",
+            "parameters": [
+                {"condition": "Not smooth operations", "rating": "Bad"},
+                {"condition": "Pulling to one side during braking", "rating": "Satisfactory"},
+                {"condition": "Brakes noisy", "rating": "Good"},
+                {"condition": "Smooth operations", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 101,
+            "What to Check": "Brake Oil",
+            "Description": "Condition",
+            "parameters": [
+                {"condition": "Contaminated oil", "rating": "Bad"},
+                {"condition": "Little seepage on joints", "rating": "Satisfactory"},
+                {"condition": "No leakage but signs of little leakage", "rating": "Good"},
+                {"condition": "Brake oil is in Good condition", "rating": "Excellent"}
+            ]
+        }
+    ],
+    "Tyres Condition": [
+        {
+            "Sr.no": 80,
+            "What to Check": "Front Tyres",
+            "Description": "Check for tread/life at least 30%.",
+            "parameters": [
+                {"condition": "Different Make/<30% life/tyre aging more than 5 years", "rating": "Bad"},
+                {"condition": "Same Make & >35% life", "rating": "Satisfactory"},
+                {"condition": "Same Make & >40% life", "rating": "Good"},
+                {"condition": "Same Make & >50% life", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 81,
+            "What to Check": "Rear Tyres",
+            "Description": "Check for tread/life at least 30%.",
+            "parameters": [
+                {"condition": "Different Make/<30% life/tyre aging more than 5 years", "rating": "Bad"},
+                {"condition": "Same Make & >35% life", "rating": "Satisfactory"},
+                {"condition": "Same Make & >40% life", "rating": "Good"},
+                {"condition": "Same Make & >50% life", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 82,
+            "What to Check": "Wheel Rim Condition (Steel Wheel Rims)",
+            "Description": "Run out, rusted.",
+            "parameters": [
+                {"condition": "Too much scratch marks", "rating": "Bad"},
+                {"condition": "Little run out", "rating": "Satisfactory"},
+                {"condition": "Ok but some scratch marks", "rating": "Good"},
+                {"condition": "In good condition", "rating": "Excellent"},
+                {"condition": "Not applicable", "rating": "N/A"}
+            ]
+        },
+        {
+            "Sr.no": 83,
+            "What to Check": "Are Alloy Wheels Fitted Properly",
+            "Description": "OEM or aftermarket fitment (Offset ratio).",
+            "parameters": [
+                {"condition": "Too much scratch marks", "rating": "Bad"},
+                {"condition": "Little run out", "rating": "Satisfactory"},
+                {"condition": "Ok but some scratch marks", "rating": "Good"},
+                {"condition": "In good condition", "rating": "Excellent"},
+                {"condition": "Not applicable", "rating": "N/A"}
+            ]
+        },
+        {
+            "Sr.no": 84,
+            "What to Check": "Spare Tyre Condition",
+            "Description": "Air pressure, Tread depth.",
+            "parameters": [
+                {"condition": "Not usable", "rating": "Bad"},
+                {"condition": "Tire worn out", "rating": "Satisfactory"},
+                {"condition": "Need to rotate for better usage", "rating": "Good"},
+                {"condition": "In good condition", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 85,
+            "What to Check": "Spare Wheel Cover",
+            "Description": "Torn / Cracked / Damage",
+            "parameters": [
+                {"condition": "Broken", "rating": "Bad"},
+                {"condition": "Ok but small damage at 1-2 points", "rating": "Satisfactory"},
+                {"condition": "Small crack observed", "rating": "Good"},
+                {"condition": "Good condition", "rating": "Excellent"}
+            ]
+        },{
+            "Sr.no": 87,
+            "What to Check": "Alignment/Balancing",
+            "Description": "Check for car pulling / uneven tyre wear / vehicle steering wobbling at high speed",
+            "parameters": [
+                {"condition": "Pulling towards one direction", "rating": "Bad"},
+                {"condition": "Steering position wrong", "rating": "Satisfactory"},
+                {"condition": "Variable turning radius / wobbling at high speed", "rating": "Good"},
+                {"condition": "Running straight without pulling to one direction", "rating": "Excellent"}
+            ]
+        }
+    ],
+    "Documents": [
+        {
+            "Sr.no": 127,
+            "What to Check": "Keys availability",
+            "Description": "Condition",
+            "parameters": [
+                {"condition": "Both duplicate keys", "rating": "Bad"},
+                {"condition": "One Original & one OEM duplicate Key", "rating": "Satisfactory"},
+                {"condition": "One Original & one OEM duplicate Key", "rating": "Good"},
+                {"condition": "Both Original Keys available", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 128,
+            "What to Check": "All Transfer papers available",
+            "Description": "As per RTO requirement",
+            "parameters": [
+                {"condition": "Incomplete Papers (F-28/29/30 & HPA)", "rating": "Bad"},
+                {"condition": "Only Xerox copies of documents", "rating": "Satisfactory"},
+                {"condition": "All RTO papers available but NOC from Bank pending", "rating": "Good"},
+                {"condition": "All Papers available", "rating": "Excellent"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,557 @@
+{
+    "sections": [
+        "Body",
+        "ElectricalSystem",
+        "AC/Heater",
+        "Steering & Suspension System",
+        "Brake System",
+        "Transmission System",
+        "Engine Fuel Ignition System",
+        "Accessories"
+    ],
+    "Body": [
+        {
+            "Sr.no": 1,
+            "Description": "Frame or underbody damage",
+            "What to Check": "Damage / Impact/ Rusting",
+            "parameters": [
+                {"condition": "> 4 panels changed", "rating": "Bad"},
+                {"condition": "2-3 Panels Changed", "rating": "Satisfactory"},
+                {"condition": "1-2 Panel changed", "rating": "Good"},
+                {"condition": "No Panel Changed", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 2,
+            "Description": "Paint Condition",
+            "What to Check": "Polishing & Gloss",
+            "parameters": [
+                {"condition": "3 Panels Color difference", "rating": "Bad"},
+                {"condition": "2 Panels Color difference", "rating": "Satisfactory"},
+                {"condition": "1 Panel Color difference", "rating": "Good"},
+                {"condition": "No difference or negligible difference in color of panels", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 3,
+            "Description": "Dent & Scratches",
+            "What to Check": "Repair and paint visible dents & deep scratches if any",
+            "parameters": [
+                {"condition": "> 4 deep dents & deep scratches", "rating": "Bad"},
+                {"condition": "2-3 minor dents & minor scratches", "rating": "Satisfactory"},
+                {"condition": "1-2 minor dents & minimal scratches", "rating": "Good"},
+                {"condition": "Almost negligible dents & scratches", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 4,
+            "Description": "Front & Rear Bumper",
+            "What to Check": "Condition, Alignment & Scratch Marks",
+            "parameters": [
+                {"condition": "Broken/ Deformed & Deep scratch marks", "rating": "Bad"},
+                {"condition": "Color difference/ Some alignment gap", "rating": "Satisfactory"},
+                {"condition": "Clean & slight color difference", "rating": "Good"},
+                {"condition": "Clean bumper", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 5,
+            "Description": "Seat adjustment - all functions",
+            "What to Check": "Smoothness & Functionality",
+            "parameters": [
+                {"condition": "Not operating/ Very Hard", "rating": "Bad"},
+                {"condition": "Operating some hard but sliding/inclination operation not very smooth", "rating": "Satisfactory"},
+                {"condition": "Operating smooth but sliding/inclination operation OK", "rating": "Good"},
+                {"condition": "Working smoothly", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 6,
+            "Description": "Safety belts inertia locking system",
+            "What to Check": "Locking mechanism",
+            "parameters": [
+                {"condition": "Not operating", "rating": "Bad"},
+                {"condition": "Operating but somewhat hard", "rating": "Satisfactory"},
+                {"condition": "Smooth operations", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 7,
+            "Description": "Windscreen glass condition",
+            "What to Check": "Scratches, cracks, and rust",
+            "parameters": [
+                {"condition": "Deep scratches mark/ Crack/ Rust", "rating": "Bad"},
+                {"condition": "No crack & some scratches", "rating": "Satisfactory"},
+                {"condition": "No scratches but replaced earlier", "rating": "Good"},
+                {"condition": "Original glass & clean", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 8,
+            "Description": "Dashboard",
+            "What to Check": "Scratches & Noise",
+            "parameters": [
+                {"condition": "Deep scratches mark", "rating": "Bad"},
+                {"condition": "Some scratches & some rattling noise", "rating": "Satisfactory"},
+                {"condition": "Some scratches & minimal rattling noise", "rating": "Good"},
+                {"condition": "Clean & no rattling noise", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 9,
+            "Description": "Window mechanisms Manual / Electronic",
+            "What to Check": "Ease of operation",
+            "parameters": [
+                {"condition": "Very Hard operations", "rating": "Bad"},
+                {"condition": "Operating but not smooth due to run channel hardness", "rating": "Satisfactory"},
+                {"condition": "Operating smoothly (All 4)", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 10,
+            "Description": "Check Front & Rear Doors",
+            "What to Check": "Smoothness & Noise",
+            "parameters": [
+                {"condition": "Very Hard operations", "rating": "Bad"},
+                {"condition": "Smooth operations but little hinge play & noise", "rating": "Satisfactory"},
+                {"condition": "Smooth operations but little hinge play & no noise", "rating": "Good"},
+                {"condition": "Smooth operations", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 11,
+            "Description": "Interior cleaning / Polishing",
+            "What to Check": "Cleanliness",
+            "parameters": [
+                {"condition": "Not Cleaning", "rating": "Bad"},
+                {"condition": "Ok but not very clean", "rating": "Satisfactory"},
+                {"condition": "Ok but some stains", "rating": "Good"},
+                {"condition": "OK & almost negligible stains", "rating": "Excellent"}
+            ]
+        }
+    ],
+    "ElectricalSystem": [
+        {
+            "Sr.no": 12,
+            "Description": "Battery",
+            "What to Check": "Age, performance, and smoothness of operation",
+            "parameters": [
+                { "condition": "Not Operating / Long Self or > 5 years old", "rating": "Bad" },
+                { "condition": "Just operating & > 4 years old", "rating": "Satisfactory" },
+                { "condition": "Operating & < 3 years old", "rating": "Good" },
+                { "condition": "Operations smooth & < 2 years old", "rating": "Excellent" }
+            ]
+        },
+        {
+            "Sr.no": 13,
+            "Description": "Alternator",
+            "What to Check": "Output and noise during operation",
+            "parameters": [
+                { "condition": "Improper Output/ Noise", "rating": "Bad" },
+                { "condition": "Operating but minimal bearing noise", "rating": "Satisfactory" },
+                { "condition": "Smooth Operations", "rating": "Good" },
+                { "condition": "Excellent", "rating": "Excellent" }
+            ]
+        },
+        {
+            "Sr.no": 14,
+            "Description": "Starter Motor",
+            "What to Check": "Cranking noise and operation",
+            "parameters": [
+                { "condition": "Cranking noise/ missing", "rating": "Bad" },
+                { "condition": "Operating but with some cranking noise", "rating": "Satisfactory" },
+                { "condition": "Smooth Operations", "rating": "Good" },
+                { "condition": "Excellent", "rating": "Excellent" }
+            ]
+        },
+        {
+            "Sr.no": 15,
+            "Description": "Fuel Pump (Petrol)",
+            "What to Check": "Noise and smoothness of operation",
+            "parameters": [
+                { "condition": "Operations not smooth & noise", "rating": "Bad" },
+                { "condition": "Operating but some noise", "rating": "Satisfactory" },
+                { "condition": "Smooth operations", "rating": "Good" },
+                { "condition": "Excellent", "rating": "Excellent" }
+            ]
+        },
+        {
+            "Sr.no": 16,
+            "Description": "Instrument panel gauges, Panel wearing lights, Combination Switch & Horn",
+            "What to Check": "Condition and visibility of gauges, switches, and lights",
+            "parameters": [
+                { "condition": "Broken or deep scratches", "rating": "Bad" },
+                { "condition": "Operating but some scratches", "rating": "Satisfactory" },
+                { "condition": "Operating but minimal scratches", "rating": "Good" },
+                { "condition": "Operations & Visibility good", "rating": "Excellent" }
+            ]
+        },
+        {
+            "Sr.no": 17,
+            "Description": "Clock/ Stereo controls / Power windows & other electrical controls",
+            "What to Check": "Functionality and condition of electrical controls",
+            "parameters": [
+                { "condition": "Not working properly", "rating": "Bad" },
+                { "condition": "Working but some wear & tear marks", "rating": "Satisfactory" },
+                { "condition": "Working smoothly", "rating": "Good" },
+                { "condition": "Excellent", "rating": "Excellent" }
+            ]
+        }
+    ],"AC/Heater": [
+        {
+            "Sr.no": 18,
+            "Description": "AC Compressor",
+            "What to Check": "Working condition and noise levels",
+            "parameters": [
+                {"condition": "Not Working/ Engaging noise", "rating": "Bad"},
+                {"condition": "Working but with minimal noise", "rating": "Satisfactory"},
+                {"condition": "Working smoothly", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 19,
+            "Description": "Condenser Fan Operations",
+            "What to Check": "Noise and cutoff operation",
+            "parameters": [
+                {"condition": "No cut-off/ Noise", "rating": "Bad"},
+                {"condition": "No noise & smooth Operation (Proper cut-off)", "rating": "Satisfactory"},
+                {"condition": "Good", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 20,
+            "Description": "Blower motor operations",
+            "What to Check": "Noise levels and operational smoothness",
+            "parameters": [
+                {"condition": "Not working properly", "rating": "Bad"},
+                {"condition": "Working but some noise", "rating": "Satisfactory"},
+                {"condition": "Working but with minimal noise", "rating": "Good"},
+                {"condition": "Smooth operations", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 21,
+            "Description": "Check AC cooling / Heating / Vents",
+            "What to Check": "Cooling, heating, and vent functionality",
+            "parameters": [
+                {"condition": "Bad", "rating": "Bad"},
+                {"condition": "Satisfactory", "rating": "Satisfactory"},
+                {"condition": "Good", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        }
+    ],
+    "Steering & Suspension System": [
+        {
+            "Sr.no": 23,
+            "Description": "Rack & Pinion",
+            "What to Check": "Smoothness and noise/play",
+            "parameters": [
+                {"condition": "Not operating smoothly & Noise/Play", "rating": "Bad"},
+                {"condition": "Operation somewhat Hard & minimal Play", "rating": "Satisfactory"},
+                {"condition": "Operations smooth & minimal play", "rating": "Good"},
+                {"condition": "Operations smooth & no noise/play", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 24,
+            "Description": "Power Steering",
+            "What to Check": "Leakage and operational smoothness",
+            "parameters": [
+                {"condition": "Leakage & Very Hard working", "rating": "Bad"},
+                {"condition": "Operation Ok & minimal Play", "rating": "Satisfactory"},
+                {"condition": "Working smoothly", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 25,
+            "Description": "Lower Arms",
+            "What to Check": "Play and noise levels",
+            "parameters": [
+                {"condition": "Play & Noise", "rating": "Bad"},
+                {"condition": "Somewhat Hard Bush", "rating": "Satisfactory"},
+                {"condition": "No noise & smooth Operation", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        }
+    ],
+    "Brake System": [
+        {
+            "Sr.no": 30,
+            "Description": "ABS",
+            "What to Check": "Pulling direction and warning indications",
+            "parameters": [
+                {"condition": "Pulling towards one direction during braking/ Not working with wheels getting locked", "rating": "Bad"},
+                {"condition": "Smooth Operation but ABS warning indication visible", "rating": "Satisfactory"},
+                {"condition": "Smooth operations but sometimes ABS warning indication popping up", "rating": "Good"},
+                {"condition": "Smooth & proper working", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 31,
+            "Description": "Brake & Hand Brake - Play/ Pedal/ Noise/ Brake Shoes",
+            "What to Check": "Play, pedal pressure, and noise",
+            "parameters": [
+                {"condition": "Too Hard & Too much play", "rating": "Bad"},
+                {"condition": "Ok but somewhat less efficient operations/ little play", "rating": "Satisfactory"},
+                {"condition": "Ok but somewhat less efficient operations/ No excessive play", "rating": "Good"},
+                {"condition": "Smooth Operation & Play", "rating": "Excellent"}
+            ]
+        }
+    ],
+    
+    "Transmission System": [
+        {
+            "Sr.no": 33,
+            "Description": "Gearshift level (Gear Engagement) ",
+            "What to Check": "Gear Level Play",
+            "parameters": [
+                {"condition": "Not smooth operations", "rating": "Bad"},
+                {"condition": "Ok but little play", "rating": "Satisfactory"},
+                {"condition": "Smooth operations", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 34,
+            "Description": "Clutch Engagement",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Hard & No play", "rating": "Bad"},
+                {"condition": "Ok but little play/ somewhat hard", "rating": "Satisfactory"},
+                {"condition": "Ok but little play", "rating": "Good"},
+                {"condition": "Smooth operations", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 35,
+            "Description": "Axle Noise",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Noise", "rating": "Bad"},
+                {"condition": "No noise", "rating": "Satisfactory"},
+                {"condition": "Good", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 36,
+            "Description": "Front & Rear Wheel bearings",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Noise", "rating": "Bad"},
+                {"condition": "Ok but had run without wheel cover", "rating": "Satisfactory"},
+                {"condition": "No noise", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 37,
+            "Description": "Front, Rear Tyres & Spare Tyre",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Different Make/ Cut Marks/ Bulge /< 30% life", "rating": "Bad"},
+                {"condition": "Same Make/ Good & > 35% life", "rating": "Satisfactory"},
+                {"condition": "Same Make/ Good & > 40% life", "rating": "Good"},
+                {"condition": "Same Make/ Good & > 50% life", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 38,
+            "Description": "Differential",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Noise", "rating": "Bad"},
+                {"condition": "Smooth Operation but permissible humming noise", "rating": "Satisfactory"},
+                {"condition": "Smooth Operation but little humming noise", "rating": "Good"},
+                {"condition": "Smooth operations", "rating": "Excellent"}
+            ]
+        }
+    ],
+    "Engine Fuel Ignition System": [
+        {
+            "Sr.no": 39,
+            "Description": "Engine and transmission mountings",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Play & Noise", "rating": "Bad"},
+                {"condition": "No Play", "rating": "Satisfactory"},
+                {"condition": "Good", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 40,
+            "Description": "Abnormal Engine Noise",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Noise", "rating": "Bad"},
+                {"condition": "No major noise but little tappet & Knocking noise", "rating": "Satisfactory"},
+                {"condition": "No noise (Tappet as well as Knocking noise) but minor kid-kid noise", "rating": "Good"},
+                {"condition": "Smooth running of engine", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 41,
+            "Description": "Engine oil leaks - cylinder head tappet cover / sump",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Leakages", "rating": "Bad"},
+                {"condition": "Ok but was not changed during RF", "rating": "Satisfactory"},
+                {"condition": "No leakage/ Good condition (Changed during RF)", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 42,
+            "Description": "Engine / Gear box oil",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Reqd Replacement", "rating": "Bad"},
+                {"condition": "Reqd Top Up", "rating": "Satisfactory"},
+                {"condition": "No requirement to change", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 43,
+            "Description": "Exhaust system condition/ Noise",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Noise/ Rusting", "rating": "Bad"},
+                {"condition": "No noise but little rusting sign", "rating": "Satisfactory"},
+                {"condition": "No noise, No rusting sign & smooth Operation", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 44,
+            "Description": "Radiator /Condenser",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Damage sign & signs of rusting", "rating": "Bad"},
+                {"condition": "Ok but some signs of rusting", "rating": "Satisfactory"},
+                {"condition": "Good Condition & no damage/rusting sign", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 45,
+            "Description": "Hose Pipe condition",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Crack/ Bad condition/ some Play", "rating": "Bad"},
+                {"condition": "Ok but signs of some hardness", "rating": "Satisfactory"},
+                {"condition": "Good condition", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 46,
+            "Description": "Water Pump",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Noise/ Leakage signs", "rating": "Bad"},
+                {"condition": "Good Condition & no noise", "rating": "Satisfactory"},
+                {"condition": "Good", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 47,
+            "Description": "Turbo Charger",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Too much blue smoke", "rating": "Bad"},
+                {"condition": "Little Blue smoke on sudden acceleration", "rating": "Satisfactory"},
+                {"condition": "Good condition", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 48,
+            "Description": "Ignition Coil (petrol only) / Ignition wire Harness",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Not working smoothly", "rating": "Bad"},
+                {"condition": "Working smoothly", "rating": "Satisfactory"},
+                {"condition": "Good", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 49,
+            "Description": "Fuel Injection Pump (Diesel)",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Ok but leakage signs", "rating": "Bad"},
+                {"condition": "Satisfactory", "rating": "Satisfactory"},
+                {"condition": "No leakage & in good condition", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        }
+    ],
+    "Accessories": [
+        {
+            "Sr.no": 50,
+            "Description": "Check functioning of Music System & Speakers",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Not working properly", "rating": "Bad"},
+                {"condition": "Ok but sound quality not very good", "rating": "Satisfactory"},
+                {"condition": "Ok but sound quality ok", "rating": "Good"},
+                {"condition": "Proper mesh & in good condition (sound quality)", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 51,
+            "Description": "Check Fog lamps, Defogger (if applicable)",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Not operating", "rating": "Bad"},
+                {"condition": "Operating but cover dull/ Scratch marks", "rating": "Satisfactory"},
+                {"condition": "Operating but cover not dull/ little scratch marks", "rating": "Good"},
+                {"condition": "Operating & in good condition", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 52,
+            "Description": "Are alloy wheels fitted properly",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Too much scratch marks", "rating": "Bad"},
+                {"condition": "Ok but some scratch marks", "rating": "Satisfactory"},
+                {"condition": "In good condition", "rating": "Good"},
+                {"condition": "Excellent", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 53,
+            "Description": "Check CNG/LPG kit if fitted",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Not working properly", "rating": "Bad"},
+                {"condition": "Outside Kit fitted but plate not available", "rating": "Satisfactory"},
+                {"condition": "Ok but CNG Kit Operational", "rating": "Good"},
+                {"condition": "Good Condition/ in operation", "rating": "Excellent"}
+            ]
+        },
+        {
+            "Sr.no": 54,
+            "Description": "Central Locking System",
+            "What to Check": "",
+            "parameters": [
+                {"condition": "Not working properly", "rating": "Bad"},
+                {"condition": "Working but slight hard operations", "rating": "Satisfactory"},
+                {"condition": "Working but some wear & tear marks", "rating": "Good"},
+                {"condition": "In good condition & smooth operation", "rating": "Excellent"}
+            ]
+        }
+    ]
+
+}
